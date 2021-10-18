@@ -326,6 +326,7 @@
             this.btnrefreshmoto.TabIndex = 1;
             this.btnrefreshmoto.Text = "Actualizar Datos";
             this.btnrefreshmoto.UseVisualStyleBackColor = true;
+            this.btnrefreshmoto.Click += new System.EventHandler(this.btnrefreshmoto_Click);
             // 
             // Dgvregistromoto
             // 
@@ -355,6 +356,7 @@
             this.btnrefreshcarro.TabIndex = 1;
             this.btnrefreshcarro.Text = "Actualizar Datos";
             this.btnrefreshcarro.UseVisualStyleBackColor = true;
+            this.btnrefreshcarro.Click += new System.EventHandler(this.btnrefreshcarro_Click);
             // 
             // DgvregistroCarro
             // 
@@ -384,6 +386,7 @@
             this.btnrefreshbus.TabIndex = 1;
             this.btnrefreshbus.Text = "Actualizar Datos";
             this.btnrefreshbus.UseVisualStyleBackColor = true;
+            this.btnrefreshbus.Click += new System.EventHandler(this.btnrefreshbus_Click);
             // 
             // DgvregistroBus
             // 
