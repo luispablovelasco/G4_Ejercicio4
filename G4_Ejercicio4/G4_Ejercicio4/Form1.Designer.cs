@@ -64,6 +64,7 @@
             this.btnproceso.TabIndex = 2;
             this.btnproceso.Text = "Ir al programa";
             this.btnproceso.UseVisualStyleBackColor = true;
+            this.btnproceso.Click += new System.EventHandler(this.btnproceso_Click);
             // 
             // btnsalir
             // 

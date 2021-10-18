@@ -10,23 +10,26 @@ using System.Windows.Forms;
 
 namespace G4_Ejercicio4
 {
-    public partial class FrmMenu : Form
+    public partial class FrmPrograma : Form
     {
-        public FrmMenu()
+        public FrmPrograma()
         {
             InitializeComponent();
         }
 
-        private void btnsalir_Click(object sender, EventArgs e)
+        private void btncrearvehiculo_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnsalirprogram_Click(object sender, EventArgs e)
         {
             Application.Exit();
         }
 
-        private void btnproceso_Click(object sender, EventArgs e)
+        private void FrmPrograma_FormClosed(object sender, FormClosedEventArgs e)
         {
-            FrmPrograma programa = new FrmPrograma();
-            this.Hide();
-            programa.Show();
+            Application.Exit();
         }
     }
 }
