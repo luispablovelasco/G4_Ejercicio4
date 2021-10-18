@@ -8,7 +8,6 @@ namespace G4_Ejercicio4
 {
     abstract class Vehiculo
     {
-
         string tipomotor;
         string transmision;
         int llantas;
